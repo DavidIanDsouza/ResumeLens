@@ -142,7 +142,7 @@ resume so the example demonstrates both matched and missing keywords.
  [5] AI Resume Coach (Ollama -- optional Groq)
  [6] Exit
 =========================================
-Please select an option: 
+Please select an option: 1
 =========================================
           RESUME LENS - MAIN MENU        
 =========================================
@@ -153,7 +153,7 @@ Please select an option:
  [5] AI Resume Coach (Ollama -- optional Groq)
  [6] Exit
 =========================================
-Please select an option: 
+Please select an option: 2
 Enter company name or other words to ignore (or press Enter to skip): 
 =========================================
           RESUME LENS - MAIN MENU        
@@ -165,15 +165,15 @@ Enter company name or other words to ignore (or press Enter to skip):
  [5] AI Resume Coach (Ollama -- optional Groq)
  [6] Exit
 =========================================
-Please select an option: 
+Please select an option: 3
 Analyzing... Please wait.
 
 -------------- RESULTS --------------
 
-Job Match Score: 50.49%
+Job Match Score: 51.25%
 
 [+] Matched Keywords (Top 20)
-  + ci (3)
+  + ci (2)
   + example (2)
   + experience (2)
   + jest (2)
@@ -186,18 +186,21 @@ Job Match Score: 50.49%
   + tool (2)
   + typescript (2)
   + unit (2)
-  + ask (1)
   + back (1)
   + bug (1)
   + computer (1)
+  + databas (1)
+  + fix (1)
+  + full (1)
+  + git (1)
 
 [-] Missing Keywords (Top 20)
-  - aws (3)
-  - cd (3)
-  - docker (3)
-  - kubernete (3)
+  - aws (2)
   - build (2)
+  - cd (2)
+  - docker (2)
   - end (2)
+  - kubernete (2)
   - ship (2)
   - write (2)
   - bachelor (1)
@@ -211,6 +214,7 @@ Job Match Score: 50.49%
   - front (1)
   - graduating (1)
   - hybrid (1)
+  - improvement (1)
 
 --- Formatting Analysis ---
 Capitalization Consistency [Score: 100%]: Good
@@ -221,7 +225,7 @@ No keywords are overused.
 
 -------------------------------------
 
-Do you want to save a PDF version of the result? (y/n): 
+Do you want to save a PDF version of the result? (y/n): n
 =========================================
           RESUME LENS - MAIN MENU        
 =========================================
@@ -232,7 +236,8 @@ Do you want to save a PDF version of the result? (y/n):
  [5] AI Resume Coach (Ollama -- optional Groq)
  [6] Exit
 =========================================
-Please select an option: Exiting Resume Lens. Goodbye!
+Please select an option: 6
+Exiting Resume Lens. Goodbye!
 ```
 
 ## Project Structure

@@ -13,13 +13,11 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
 endobj
 5 0 obj
-<< /Length 1681 >>
+<< /Length 1647 >>
 stream
 BT
 /F1 10 Tf
 50 750 Td
-(Fictional demo data) Tj
-0 -14 Td
 () Tj
 0 -14 Td
 (Jordan Lee) Tj
@@ -87,5 +85,5 @@ xref
 trailer
 << /Size 6 /Root 1 0 R >>
 startxref
-2061
+2027
 %%EOF
