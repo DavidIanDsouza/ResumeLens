@@ -126,6 +126,11 @@ paths or use command-line arguments.
 The following output was produced by analyzing the fictional demonstration
 documents in `examples/`:
 
+The files use fictional data only: the resume belongs to Jordan Lee and uses
+`example.com` contact links, while the job description intentionally includes
+Docker, Kubernetes, AWS, and CI/CD requirements that are absent from the
+resume so the example demonstrates both matched and missing keywords.
+
 ```
 =========================================
           RESUME LENS - MAIN MENU        
@@ -141,7 +146,7 @@ Please select an option:
 =========================================
           RESUME LENS - MAIN MENU        
 =========================================
- [1] Browse Resume File (Current: C:\Users\david\Documents\UNIVERSITY\3rd Year\3rd Year - 2nd Semester\CS 3307\Resume Lens\examples\sample_resume.pdf)
+ [1] Browse Resume File (Current: examples/sample_resume.pdf)
  [2] Browse Job Description (Current: None)
  [3] Analyze Resume
  [4] Manual Edit & PDF Export
@@ -153,8 +158,8 @@ Enter company name or other words to ignore (or press Enter to skip):
 =========================================
           RESUME LENS - MAIN MENU        
 =========================================
- [1] Browse Resume File (Current: C:\Users\david\Documents\UNIVERSITY\3rd Year\3rd Year - 2nd Semester\CS 3307\Resume Lens\examples\sample_resume.pdf)
- [2] Browse Job Description (Current: C:\Users\david\Documents\UNIVERSITY\3rd Year\3rd Year - 2nd Semester\CS 3307\Resume Lens\examples\sample_job_description.pdf)
+ [1] Browse Resume File (Current: examples/sample_resume.pdf)
+ [2] Browse Job Description (Current: examples/sample_job_description.pdf)
  [3] Analyze Resume
  [4] Manual Edit & PDF Export
  [5] AI Resume Coach (Ollama -- optional Groq)
@@ -169,8 +174,6 @@ Job Match Score: 50.49%
 
 [+] Matched Keywords (Top 20)
   + ci (3)
-  + sample (3)
-  + demo (2)
   + example (2)
   + experience (2)
   + jest (2)
@@ -178,7 +181,6 @@ Job Match Score: 50.49%
   + postgresql (2)
   + python (2)
   + react (2)
-  + resume (2)
   + sql (2)
   + tech (2)
   + tool (2)
@@ -202,7 +204,6 @@ Job Match Score: 50.49%
   - code (1)
   - communication (1)
   - degree (1)
-  - deliberately (1)
   - developer (1)
   - familiarity (1)
   - feature (1)
@@ -224,8 +225,8 @@ Do you want to save a PDF version of the result? (y/n):
 =========================================
           RESUME LENS - MAIN MENU        
 =========================================
- [1] Browse Resume File (Current: C:\Users\david\Documents\UNIVERSITY\3rd Year\3rd Year - 2nd Semester\CS 3307\Resume Lens\examples\sample_resume.pdf)
- [2] Browse Job Description (Current: C:\Users\david\Documents\UNIVERSITY\3rd Year\3rd Year - 2nd Semester\CS 3307\Resume Lens\examples\sample_job_description.pdf)
+ [1] Browse Resume File (Current: examples/sample_resume.pdf)
+ [2] Browse Job Description (Current: examples/sample_job_description.pdf)
  [3] Analyze Resume
  [4] Manual Edit & PDF Export
  [5] AI Resume Coach (Ollama -- optional Groq)

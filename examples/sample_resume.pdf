@@ -1,5 +1,5 @@
 %PDF-1.4
-%‚„œ”
+% ResumeLens demo
 1 0 obj
 << /Type /Catalog /Pages 2 0 R >>
 endobj
@@ -13,14 +13,12 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
 endobj
 5 0 obj
-<< /Length 1812 >>
+<< /Length 1681 >>
 stream
 BT
 /F1 10 Tf
 50 750 Td
-(SAMPLE RESUME - FICTIONAL PERSON, FOR DEMO ONLY) Tj
-0 -14 Td
-(Do not treat this as a real applicant. No real name, email, or phone number is used here.) Tj
+(Fictional demo data) Tj
 0 -14 Td
 () Tj
 0 -14 Td
@@ -81,13 +79,13 @@ endobj
 xref
 0 6
 0000000000 65535 f 
-0000000015 00000 n 
-0000000064 00000 n 
-0000000121 00000 n 
-0000000191 00000 n 
-0000000317 00000 n 
+0000000027 00000 n 
+0000000076 00000 n 
+0000000133 00000 n 
+0000000203 00000 n 
+0000000329 00000 n 
 trailer
 << /Size 6 /Root 1 0 R >>
 startxref
-2181
+2061
 %%EOF
