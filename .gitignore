@@ -1,0 +1,40 @@
+# Compiled application binaries
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.o
+
+# CMake and Visual Studio build output
+build/
+.vs/
+*.sln
+*.slnx
+*.vcxproj
+*.vcxproj.*
+*.tlog
+
+# Generated documentation
+docs/html/
+docs/latex/
+
+# Temporary files created by the application during runtime
+temp_extracted.txt
+temp_resume_edit.txt
+temp_ai_request.json
+temp_ai_response.json
+
+# Environment Variables & Secrets
+.env
+.env.*
+
+# OS generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.idea/
+
+# Local test documents
+*.pdf
