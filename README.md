@@ -121,6 +121,119 @@ paths or use command-line arguments.
 6. **Select Option 4**: The app will suspend and open your resume directly inside your system's text editor (e.g., Notepad). All of your missing keywords are conveniently injected at the top of the file. Simply edit your text, save, and close Notepad. The application will resume, prompt you for a save destination, and seamlessly export your tailored text into a beautifully formatted `PDF`!
 7. **Select Option 6** when you are done to exit.
 
+## Sample Output
+
+The following output was produced by analyzing the fictional demonstration
+documents in `examples/`:
+
+```
+=========================================
+          RESUME LENS - MAIN MENU        
+=========================================
+ [1] Browse Resume File (Current: None)
+ [2] Browse Job Description (Current: None)
+ [3] Analyze Resume
+ [4] Manual Edit & PDF Export
+ [5] AI Resume Coach (Ollama -- optional Groq)
+ [6] Exit
+=========================================
+Please select an option: 
+=========================================
+          RESUME LENS - MAIN MENU        
+=========================================
+ [1] Browse Resume File (Current: C:\Users\david\Documents\UNIVERSITY\3rd Year\3rd Year - 2nd Semester\CS 3307\Resume Lens\examples\sample_resume.pdf)
+ [2] Browse Job Description (Current: None)
+ [3] Analyze Resume
+ [4] Manual Edit & PDF Export
+ [5] AI Resume Coach (Ollama -- optional Groq)
+ [6] Exit
+=========================================
+Please select an option: 
+Enter company name or other words to ignore (or press Enter to skip): 
+=========================================
+          RESUME LENS - MAIN MENU        
+=========================================
+ [1] Browse Resume File (Current: C:\Users\david\Documents\UNIVERSITY\3rd Year\3rd Year - 2nd Semester\CS 3307\Resume Lens\examples\sample_resume.pdf)
+ [2] Browse Job Description (Current: C:\Users\david\Documents\UNIVERSITY\3rd Year\3rd Year - 2nd Semester\CS 3307\Resume Lens\examples\sample_job_description.pdf)
+ [3] Analyze Resume
+ [4] Manual Edit & PDF Export
+ [5] AI Resume Coach (Ollama -- optional Groq)
+ [6] Exit
+=========================================
+Please select an option: 
+Analyzing... Please wait.
+
+-------------- RESULTS --------------
+
+Job Match Score: 50.49%
+
+[+] Matched Keywords (Top 20)
+  + ci (3)
+  + sample (3)
+  + demo (2)
+  + example (2)
+  + experience (2)
+  + jest (2)
+  + pipeline (2)
+  + postgresql (2)
+  + python (2)
+  + react (2)
+  + resume (2)
+  + sql (2)
+  + tech (2)
+  + tool (2)
+  + typescript (2)
+  + unit (2)
+  + ask (1)
+  + back (1)
+  + bug (1)
+  + computer (1)
+
+[-] Missing Keywords (Top 20)
+  - aws (3)
+  - cd (3)
+  - docker (3)
+  - kubernete (3)
+  - build (2)
+  - end (2)
+  - ship (2)
+  - write (2)
+  - bachelor (1)
+  - code (1)
+  - communication (1)
+  - degree (1)
+  - deliberately (1)
+  - developer (1)
+  - familiarity (1)
+  - feature (1)
+  - field (1)
+  - front (1)
+  - graduating (1)
+  - hybrid (1)
+
+--- Formatting Analysis ---
+Capitalization Consistency [Score: 100%]: Good
+Punctuation Consistency [Score: 100%]: Good
+
+--- Keyword Overuse Alerts ---
+No keywords are overused.
+
+-------------------------------------
+
+Do you want to save a PDF version of the result? (y/n): 
+=========================================
+          RESUME LENS - MAIN MENU        
+=========================================
+ [1] Browse Resume File (Current: C:\Users\david\Documents\UNIVERSITY\3rd Year\3rd Year - 2nd Semester\CS 3307\Resume Lens\examples\sample_resume.pdf)
+ [2] Browse Job Description (Current: C:\Users\david\Documents\UNIVERSITY\3rd Year\3rd Year - 2nd Semester\CS 3307\Resume Lens\examples\sample_job_description.pdf)
+ [3] Analyze Resume
+ [4] Manual Edit & PDF Export
+ [5] AI Resume Coach (Ollama -- optional Groq)
+ [6] Exit
+=========================================
+Please select an option: Exiting Resume Lens. Goodbye!
+```
+
 ## Project Structure
 ```
 Resume Lens/

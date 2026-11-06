@@ -38,3 +38,5 @@ temp_ai_response.json
 
 # Local test documents
 *.pdf
+!examples/sample_resume.pdf
+!examples/sample_job_description.pdf

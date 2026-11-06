@@ -1,0 +1,79 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1463 >>
+stream
+BT
+/F1 10 Tf
+50 750 Td
+(SAMPLE JOB DESCRIPTION - FICTIONAL POSTING, FOR DEMO ONLY) Tj
+0 -14 Td
+(Written to pair with sample_resume.txt. It deliberately asks for a few skills the) Tj
+0 -14 Td
+(sample resume does not have \(Docker, Kubernetes, AWS, CI/CD\) so the demo shows) Tj
+0 -14 Td
+(both matched and missing keywords.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Junior Software Developer - Example Tech Inc., Toronto, ON \(Hybrid\)) Tj
+0 -14 Td
+(Example Tech builds internal tools for small logistics teams.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(What you will do:) Tj
+0 -14 Td
+(- Build and maintain full-stack features in React and TypeScript on the front end) Tj
+0 -14 Td
+(  and Python on the back end.) Tj
+0 -14 Td
+(- Write SQL queries and work with PostgreSQL databases.) Tj
+0 -14 Td
+(- Ship code with Docker and Kubernetes, running on AWS.) Tj
+0 -14 Td
+(- Set up CI/CD pipelines and write unit tests with Jest.) Tj
+0 -14 Td
+(- Work with product managers and support staff to fix bugs and ship improvements.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(What we are looking for:) Tj
+0 -14 Td
+(- Bachelor's degree in Computer Science or a related field, graduating in 2027.) Tj
+0 -14 Td
+(- Experience with Python, JavaScript, TypeScript, React, and SQL.) Tj
+0 -14 Td
+(- Experience with PostgreSQL, Git, Docker, Kubernetes, and AWS.) Tj
+0 -14 Td
+(- Familiarity with CI/CD pipelines and unit testing with Jest.) Tj
+0 -14 Td
+(- Strong communication skills and an interest in learning new tools.) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000317 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1832
+%%EOF
